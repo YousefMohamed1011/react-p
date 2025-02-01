@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", serif;
+}
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.app {
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
+  width: 80%;
+  max-width: 300px;
+  border-radius: 10px;
+  background-color: #f5f5dc;
+  border: 1px solid #8b4513;
+}
+
+h1 {
+  color: #2f4f4f;
+  margin-bottom: 20px;
+}
+p {
+  margin: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+button {
+  font-size: 40px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+  color: #a0522d;
+  cursor: pointer;
+}
+.re {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+}
